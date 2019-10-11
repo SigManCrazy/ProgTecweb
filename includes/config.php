@@ -1,0 +1,1 @@
+// dati costanti di configurazione
