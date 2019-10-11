@@ -1,3 +1,4 @@
+<?php
 // variabili di ambiente necessarie ovunque
 
 /* esempio :

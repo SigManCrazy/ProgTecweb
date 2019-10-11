@@ -1,10 +1,10 @@
 <?php
+define('SITE_ROOT', getcwd());
+include SITE_ROOT."/includes/resources.php";
 
-	print("Hello world!");
-	print("<br>");
-	print("wlf");
-
-//	include "sanita_mentale.php"
-//	render("template.xhtml", ["nome" => "AIFUIAWHIUFWHAUIOFD"]);
+echo render("template.xhtml", [
+    "nome" => "AIFUIAWHIUFWHAUIOFD",
+    "titolo" => "p. prova"
+    ]);
 
 ?>
