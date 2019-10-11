@@ -1,7 +1,7 @@
 <?php
 
-include "sanita_mentale.php"
+	print("Hello world!");
+//	include "sanita_mentale.php"
+//	render("template.xhtml", ["nome" => "AIFUIAWHIUFWHAUIOFD"]);
 
-render("template.xhtml", [
-	"nome" => "AIFUIAWHIUFWHAUIOFD"
-]);
+?>
