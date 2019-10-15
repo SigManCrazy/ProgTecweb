@@ -34,7 +34,7 @@ CREATE TABLE `account` (
   `username` VARCHAR(32) NOT NULL UNIQUE,
   `password` VARCHAR(128) NOT NULL,
   `email` VARCHAR(128) NOT NULL UNIQUE,
-  `type` SMALLINT unsigned NOT NULL
+  `type` SMALLINT unsigned NOT NULL DEFAULT '1'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 CREATE TABLE `tour_subscription` (
