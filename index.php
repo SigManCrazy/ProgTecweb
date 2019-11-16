@@ -4,7 +4,7 @@ include SITE_ROOT."/includes/resources.php";
 
 echo render("template.xhtml", [
     "nome" => "Pierino va a squola",
-    "titolo" => "p. prova"
+    "titolo" => "Una Grappa in Bricco vola nel Piovego"
     ]);
 
 ?>
