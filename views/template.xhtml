@@ -10,17 +10,7 @@
     <link href="./css/desktop_style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <header class="header">
-      <nav class="navbar">
-        <h1 class="navTitle">Distilleria San Rispino</h1>
-        <ul class="menu">
-          <li class="item-li"><a href="#" class="item-a">Home</a></li>
-          <li class="item-li"><a href="#" class="item-a">News</a></li>
-          <li class="item-li"><a href="#" class="item-a">About</a></li>
-          <li class="item-li"><a href="#" class="item-a">Login</a></li>
-        </ul>
-      </nav>
-    </header>
+    {{include components/header}}
     <main class="main">
       <aside class="aside">
         <div class="box">
@@ -55,9 +45,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
-      <p>Filiale di BriccoInGrappa SRL | Per ogni bricco ce ne &egrave; una ;)</p>
-    </footer>
+    {{include components/footer}}
 
   </body>
 </html>
