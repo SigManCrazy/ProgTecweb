@@ -2,7 +2,7 @@
 define('SITE_ROOT', getcwd());
 include SITE_ROOT."/includes/resources.php";
 
-echo render("template2.xhtml", [
+echo render("template.xhtml", [
     "nome" => "Pierino va a squola",
     "titolo" => "Una Grappa in Bricco vola nel Piovego",
     "articolo" => "<p>Affascinante avvistamento di una rara variet&agrave; di Grappa al gusto di Piovego.</p>"
