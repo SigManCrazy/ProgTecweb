@@ -1,0 +1,97 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+/*------------------- css header nav------------------*/
+.header{
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  width: 100%;
+  background-color: #f2f2f2;
+}
+.navbar{
+  overflow: hidden;
+  width: 100%;
+}
+.navbar .navTitle{
+  float: left;
+  padding-left: 30px;
+}
+.navbar .menu{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  overflow: hidden;
+
+}
+/*------------------------css menu nav-------------------------*/
+.menu .item-li{
+  float: left;
+  padding: 5px;
+}
+.menu .item-li .item-a:hover{
+  background-color: #595959;
+  color: white;
+}
+.menu .item-li .item-a{
+  color: black;
+  background-color: #ffffff;
+  display: block;
+  padding: 15px 15px;
+  border: 1px solid #f4f4f4;
+  text-decoration: none;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.2);
+}
+
+.header .menu{
+  max-height: none;
+  float: right;
+}
+/*-----------------------css main aside sec ------------------------*/
+.main{
+  display: flex;
+}
+.aside{
+  width: 25%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.section{
+  width: 75%;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #f4f4f4;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.9);
+  display: table;
+}
+/*---------------------css box aside section--------------*/
+.aside .box{
+  width: 100%;
+
+  overflow: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #f4f4f4;
+  box-shadow: 0px 0px 4px  rgba(0,0,0,.9);
+}
+.aside .box p{
+  padding: 0px 20px 0px 20px;
+  text-align: justify;
+}
+
+.section .box p{
+  padding: 0px 20px 0px 20px;
+  text-align: justify;
+
+}
+/*---------------------css footer--------------*/
+.footer{
+  text-align: center;
+  padding: 10px;
+  background-color: #f4f4f4;
+}
