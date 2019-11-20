@@ -22,11 +22,11 @@ class RenderForward {
 			
 			if ((is_object($value)) && ($value instanceof RenderForward) ) {
 				$content = preg_replace("/{{(\\s)*forward(\\s)+(".regExp_escape($key).")(\\s)*}}/", $value->render(), $content);
-			} else if (!is_array($value)) {
+			} else if (is_array($value)) {
+				$content = preg_replace("/{{(\\s)*expand(\\s)+(".regExp_escape($key).")(\\s)*}}/", RenderForward::renderTemplate($key, $value), $content);
+			} else {
 				$content = preg_replace("/{{(\\s)*fill(\\s)+".$key."((\\s)+(unsafe))?(\\s)*}}/", "".$value, $content);
 				$content = preg_replace("/{{(\\s)*fill(\\s)+".$key."(\\s)*}}/", "".htmlentities($value), $content);
-			} else {
-				$content = preg_replace("/{{(\\s)*forward(\\s)+(".regExp_escape($key).")(\\s)*}}/", RenderForward::renderTemplate($key, $value), $content);
 			}
 		}
 		
