@@ -1,5 +1,8 @@
 <?php
 // dati costanti di configurazione
 
-define("DATABASE_COONECTION", ""); // Stringa per la connessione al database
+define("DATABASE_HOST", ""); 
+define("DATABASE_USER", ""); 
+define("DATABASE_PASSWORD", ""); 
+define("DATABASE_DBNAME", ""); 
 
