@@ -3,6 +3,11 @@ define('SITE_ROOT', getcwd());
 include SITE_ROOT."/includes/resources.php";
 
 $indexPage = new RenderForward("template", [
+    "aside" => new RenderForward(
+        "components/aside", [
+            "chi_siamo" => "Chi Siamo?"
+        ]
+    ),
     "content" => new RenderForward(
         "pages/index", [
             "nome" => "Pierino va a squola",
