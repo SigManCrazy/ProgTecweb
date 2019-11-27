@@ -6,6 +6,9 @@
     flex-direction: column;
     overflow: hidden;
 }
+.headbox {
+    min-height: 55px;
+}
 .aside .box {
     width: 100%;
     padding-left: 10px;
