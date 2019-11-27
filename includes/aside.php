@@ -3,7 +3,7 @@
 function getAsideContentArray() {
     return [
         "title1" => "Chi Siamo?", /* prendere commenti dal db */
-        "comment1" => "Chi Siamo?", /* prendere commenti dal db */
+        "comment1" => "Siamo un piccolo sito Web in cui trattiamo di discussioni sulla grappa servita in bricco e illustriamo ai nostri visitatori alcune loro caratteristiche.", /* prendere commenti dal db */
         "title2" => "Chi Siamo?", /* prendere commenti dal db */
         "comment2" => "Chi Siamo?", /* prendere commenti dal db */
         "title3" => "Chi Siamo?", /* prendere commenti dal db */
