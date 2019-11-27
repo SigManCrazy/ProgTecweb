@@ -3,7 +3,7 @@ define('SITE_ROOT', getcwd());
 include SITE_ROOT."/includes/resources.php";
 
 $indexPage = new RenderForward("template", [
-    "aside" => new RenderForward(
+    "components/aside" => new RenderForward(
         "components/aside", getAsideContentArray()
     ),
     "content" => new RenderForward(

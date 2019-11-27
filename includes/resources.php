@@ -4,3 +4,5 @@ include SITE_ROOT."/includes/config.php";
 include SITE_ROOT."/includes/variables.php";
 include SITE_ROOT."/includes/template.php";
 include SITE_ROOT."/includes/aside.php";
+
+?>
