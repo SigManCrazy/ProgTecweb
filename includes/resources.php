@@ -4,5 +4,6 @@
 	include SITE_ROOT."/includes/variables.php";
 	include SITE_ROOT."/includes/build_page.php";
 	include SITE_ROOT."/includes/template.php";
+	include SITE_ROOT."/includes/database.php";
 
 ?>

@@ -9,6 +9,8 @@ $indexPage = build_default_page("pages/index" , [
 				."</p>"
 			]);
 
+$db = new Database;
+ /*echo $db("select * from product", [])[2]; */ //TODO funziona! il db è collegato correttamente
 echo $indexPage->render();
 
 ?>
