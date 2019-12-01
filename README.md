@@ -21,7 +21,7 @@ utenti.
 * `/includes`
 
   Qui sta tutto il php (a parte il principale index.php)
-  Il gestore delle view è `RenderFoward.php`, che utilizza
+  Il gestore delle view e' `RenderFoward.php`, che utilizza
   `template.xhtml` come base per costruire le varie pagine,
   iniettando il contenuto dove e come le varie pagine
   specifichino.
@@ -46,7 +46,7 @@ utenti.
 * `/views`
 
   Gli scheletri xhtml delle varie parti. `template.xhtml`
-  è il default in cui vengono inseriti gli altri.
+  e' il default in cui vengono inseriti gli altri.
 
   * `/components`
 
