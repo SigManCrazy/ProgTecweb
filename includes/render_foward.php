@@ -9,12 +9,10 @@ class RenderForward {
 
 	private static function renderTemplate($templateFilename, $data) {
 		$content = file_get_contents(SITE_ROOT."/views/".$templateFilename.".xhtml");
-		$target_platform = "desktop"; // TODO aggiungere mobile
 		$include_matches = [];
 		$result = preg_match_all("/{{(\\s)*include(\\s)+"."(([a-zA-Z]|\/)+)"."(\\s)*}}/", $content, $include_matches);
 		foreach ($include_matches[3] as $include_file_name) {
-			$css_include = "<link href=\"./css/".$target_platform."/". $include_file_name .".css\" rel=\"stylesheet\" type=\"text/css\" />\n";
-			$content = preg_replace("/{{(\\s)*include(\\s)+(".regExp_escape($include_file_name).")(\\s)*}}/", $css_include . RenderForward::renderTemplate($include_file_name, $data), $content);
+			$content = preg_replace("/{{(\\s)*include(\\s)+(".regExp_escape($include_file_name).")(\\s)*}}/", RenderForward::renderTemplate($include_file_name, $data), $content);
 		}
 	
 		foreach ($data as $key => $value) {
@@ -23,8 +21,7 @@ class RenderForward {
 			$offset = 0;
 			
 			if ((is_object($value)) && ($value instanceof RenderForward) ) {
-				$css_include = "<link href=\"./css/".$target_platform."/" . $key . ".css\" rel=\"stylesheet\" type=\"text/css\" />\n";
-				$content = preg_replace("/{{(\\s)*forward(\\s)+(".regExp_escape($key).")(\\s)*}}/",  $css_include . $value->render(), $content);
+				$content = preg_replace("/{{(\\s)*forward(\\s)+(".regExp_escape($key).")(\\s)*}}/",  $value->render(), $content);
 			} else if (is_array($value)) {
 				$content = preg_replace("/{{(\\s)*expand(\\s)+(".regExp_escape($key).")(\\s)*}}/", RenderForward::renderTemplate($key, $value), $content);
 			} else {

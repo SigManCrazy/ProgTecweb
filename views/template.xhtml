@@ -7,14 +7,14 @@
     <meta name="author" content="Andrea Cecchin, Rolando Sartorello, Denis Benato, Andrea Signori" />
     <meta name="description" content="Sito di esposizione di grappe" />
     <meta name="language" content="italian it" />
-    <link href="./css/desktop/template.css" rel="stylesheet" type="text/css" />
+    <link href="./css/{{fill target_platform}}/template.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     {{include components/header}}
     <div class="main">
       {{forward components/aside}}
       <div class="section">
-        {{forward content}} 
+        {{forward content}}
       </div>
     </div>
     {{include components/footer}}
