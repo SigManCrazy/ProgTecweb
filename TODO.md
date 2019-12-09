@@ -1,14 +1,21 @@
-Creare tutte i template delle pagine (vuoti anche)
-
-login + signup (parte php dei form)
-login + signup (scheletro xhtml)
+login.php
+signup.phps
 
 Cantina.php
 Cantina.xhtml
-About.php + About.xhtml
+Cantina.css
+
+
+homepage.php (ex about.php)
+homepage.xhtml  (ex about.xhtml)
+homepage.css (ex about.css)
 
 login + signup (css)
-Cantina.css
-About.css
+
+grappa.php
+grappa.xhtml
+grappa.css
+
+
 
 Mobile CSS
