@@ -15,10 +15,15 @@ DELETE FROM `tecweb`.`product`;
 INSERT INTO `tecweb`.`product`
 (`ID`, `name`, `img_path`, `desc`)
 VALUES
-(1, 'Tagliatella', 'TagliatellaNardini.jpg', 'Apprezzata per il gusto particolare, che e\' insieme dolce e amaro, e\' bevuta sia come aperitivo che come digestivo. '),
-(2, 'Classica Poli', 'BassanoClassicaPoli.jpg', 'Un omaggio a Bassano del Grappa, la capitale della Grappa, e al Poli Museo della Grappa che si trova di fronte al Ponte Vecchio, simbolo della citta\', progettato dall\' architetto Andrea Palladio nel \'500.'),
-(3, 'Grappino', 'Grappino.jpg', 'Un buon grappino'),
-(4, 'Grappa', 'GrappaInutile.jpg', 'Un altra grappa comune');
+(1, 'Tagliatella', 'TagliatellaNardini.jpg', 'Apprezzata per il gusto particolare, che e\' insieme dolce e amaro, e\' bevuta sia come aperitivo che come digestivo.  70 cl - 35% Vol. Fruttato, speziato ed armonico. Un liquore unico, dalle sfumature floreali e fini note speziate. Grappa, marasca, arancio ed erbe sono alla base della ricetta gelosamente custodita dalla famiglia Nardini. L’equilibrio di sapori dolciamari stupisce anche i palati piu\' esigenti e conquista dal primo sorso.'),
+(2, 'Classica Poli', 'BassanoClassicaPoli.jpg', 'Un omaggio a Bassano del Grappa, la capitale della Grappa. Profumata, secca e dolce nel retrogusto. Una grappa che racchiude tutte le sfumature del gusto della mandorla, che unita al distillato di marasca, crea un perfetto equilibrio per chi vuole scoprire il mondo dei distillati miscelati e avvicinarsi a questi sapori.'),
+(3, 'Grappino', 'Grappino.jpg', 'Floreale, deciso ed intenso. Il carattere versatile lo rende capace di esaudire ogni desiderio. Un profumato digestivo, un aperitivo da preparare agli amici o, aggiungendo acqua, una dissetante bevanda. L’intensita\' dell’anice vive in ognuna di queste preparazioni che ne esaltano le sfumature di gusto.'),
+(4, 'Grappa', 'GrappaInutile.jpg', 'Intenso, balsamico e profumato. Nasce dall’unione di semi di cumino dei prati, erbe e bacche di ginepro che impreziosiscono il gusto, donando intense note balsamiche. Un digestivo dall’aroma dolce ed asciutto, versatile nell’uso e perfetto da gustare miscelato.'),
+(5, 'Grappa mandorlata', 'GrappaMandorlata.jpg', 'rofumata, secca e dolce nel retrogusto. Una grappa che racchiude tutte le sfumature del gusto della mandorla, che unita al distillato di marasca, crea un perfetto equilibrio per chi vuole scoprire il mondo dei distillati miscelati e avvicinarsi a questi sapori.'),
+(6, 'Grappa6', 'GrappaInutile.jpg', ''),
+(7, 'Grappa7', 'GrappaInutile.jpg', ''),
+(8, 'Grappa8', 'GrappaInutile.jpg', ''),
+(9, 'Grappa9', 'GrappaInutile.jpg', '');
 
 
 # RECENSIONI
