@@ -1,5 +1,17 @@
+.content {
+    display: block;
+    align-content: center;
+}
 .grappa {
-    width: 300px;
+    display: block;
+    text-align: center;
+    align-content: center;
+}
+.box {
+    display: block;
+    text-align: center;
+    align-content: center;
+}
+.grappa-img {
     height: 300px;
-    float:left;
 }
