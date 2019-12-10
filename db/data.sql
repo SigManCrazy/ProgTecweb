@@ -15,8 +15,8 @@ DELETE FROM `tecweb`.`product`;
 INSERT INTO `tecweb`.`product`
 (`ID`, `name`, `img_path`, `desc`)
 VALUES
-(1, 'Tagliatella', 'TagliatellaNardini.jpg', 'Apprezzata per il gusto particolare, che è insieme dolce e amaro, è bevuta sia come aperitivo che come digestivo. '),
-(2, 'Classica Poli', 'BassanoClassicaPoli.jpg', 'Un omaggio a Bassano del Grappa, la capitale della Grappa, e al Poli Museo della Grappa che si trova di fronte al Ponte Vecchio, simbolo della città, progettato dall\' architetto Andrea Palladio nel \'500.'),
+(1, 'Tagliatella', 'TagliatellaNardini.jpg', 'Apprezzata per il gusto particolare, che e\' insieme dolce e amaro, e\' bevuta sia come aperitivo che come digestivo. '),
+(2, 'Classica Poli', 'BassanoClassicaPoli.jpg', 'Un omaggio a Bassano del Grappa, la capitale della Grappa, e al Poli Museo della Grappa che si trova di fronte al Ponte Vecchio, simbolo della citta\', progettato dall\' architetto Andrea Palladio nel \'500.'),
 (3, 'Grappino', 'Grappino.jpg', 'Un buon grappino'),
 (4, 'Grappa', 'GrappaInutile.jpg', 'Un altra grappa comune');
 
