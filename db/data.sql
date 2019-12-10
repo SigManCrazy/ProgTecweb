@@ -34,7 +34,7 @@ VALUES
 (1, 1, 1, 9, 'Grappa molto buona, mi e\' piaciuta tanto! Mi ha spaccato e non capivo piu\' cos\'era reale e cos\'era sbocco'),
 (2, 1, 2, 2, 'Non mi ha convinto, puzza un po\' di roba bruciata, secondo me l\'hanno affumicata male o non so'),
 (3, 1, 2, 9, 'Grandi soddisfazioni, profumo unico. L\'ho regalata a mia moglie per l\'anniversario e ha riacceso la passione'),
-(4, 2, 3, 7, 'Non e\' piu\' quella di una volta, ma resta la mia grappa preferita. Resterà sempre nel mio cuore alcolizzato'),
+(4, 2, 3, 7, 'Non e\' piu\' quella di una volta, ma resta la mia grappa preferita. Restera\' sempre nel mio cuore alcolizzato'),
 (5, 2, 1, 8, 'Modesta grappa per tutte le tasche, non si sbaglia mai. C\'e\' ad ogni pasto in tavola a casa nostra! Spesso sostituisce addirittura la cena'),
 (6, 2, 2, 5, 'Non ho mai assaggiato una cosa cosi\' orribile.. alcool puro. Sapore inesistente, cambiate lavoro!!'),
 (7, 3, 3, 9, 'Ho assaggaito tante grappe nella mia vita. Mio nonno le faceva in casa. Questa non l\'ho mai assaggiata, ma volevo commentare XD');
