@@ -1,9 +1,9 @@
 SET TIME_ZONE = '+02:00';
 USE `tecweb`;
 
+DROP TABLE IF EXISTS `tecweb`.`comment`;
 DROP TABLE IF EXISTS `tecweb`.`account`;
 DROP TABLE IF EXISTS `tecweb`.`product`;
-DROP TABLE IF EXISTS `tecweb`.`comment`;
 
 CREATE TABLE `product` (
   `ID` INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
