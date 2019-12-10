@@ -14,9 +14,9 @@ $indexPage = build_default_page("pages/index" , [
 				"titolo" => "Una Grappa in Bricco vola nel Piovego",
 				"articolo" => "<p>La Distilleria San Rispino nasce in Veneto – Italia alla fine degli anni ’10 a Padova, fondata da 4 studenti che trovarono nell'alcool il primo valore sopra il 18.</p>".
 								"<p>Nella nostra distilleria disponiamo di tutte le attrezzature adatte al processo di produzione,</p>
-								<p>come le cisterne in acciaio dell'acqua del Piovego, le vasche di miscelazione delle nutrie, </p>
-								<p>gli strumenti per l’imbottigliamento e l’etichettatura dei nostri pregiati prodotti. Uno dei pezzi forti della nostra distilleria è la barricaia,</p>
-								<p>che ci regala malattie di qualità da decenni: disposta sottoterra per garantire temperatura e umidità costanti,</p> <p> vanta attualmente numerosi quantità diverse di virus mortali.</p>".
+								<p>come le cisterne in acciaio dell'acqua del Piovego, le vasche di miscelazione delle nutrie, 
+								gli strumenti per </p><p>l’imbottigliamento e l’etichettatura dei nostri pregiati prodotti. Uno dei pezzi forti della nostra distilleria è</p> <p> la barricaia,
+								che ci regala malattie di qualità da decenni: disposta sottoterra per garantire temperatura</p> <p>e umidità costanti favorisce la proliferazione dei batteri, vanta attualmente numerosi quantità di virus mortali.</p>".
 								"<p>Qua ti innamori della grappa!</p>",
 				"contactinfo" => $contactinfo
 			]);
