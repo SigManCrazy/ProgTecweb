@@ -5,8 +5,11 @@ include SITE_ROOT."/includes/resources.php";
 
 $db = new Database;
 $result = null;
-if 
-$result = $db("select name, img_path from product order by name desc limit 3", []);
+if ( isset($_GET["q"]) )
+	$result = $db("select name, img_path from product where name like ? order by name desc limit 3", [ "%".$_GET["q"]."%" ]);
+else
+	$result = $db("select name, img_path from product order by name desc limit 3", []);
+
 $res = [ $result->fetch(), $result->fetch(), $result->fetch() ];
 $i = 0;
 $indexPage = build_default_page("pages/cantina" , [
