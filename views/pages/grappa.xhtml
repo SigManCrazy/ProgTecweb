@@ -14,28 +14,42 @@
 </div>
 <hr />
 <h4>Commenti: </h4>
-<div class="comment comm1">
+<div class="comment">
     <h3 class="comment-username">{{ fill user1 }}</h3>
-    <hr />
     <p class="comment-paragraph">{{ fill comm1 }}</p>
 </div>
-<div class="comment comm1">
+<div class="comment">
     <h3 class="comment-username">{{ fill user2 }}</h3>
-    <hr />
     <p class="comment-paragraph">{{ fill comm2 }}</p>
 </div>
-<div class="comment comm3">
+<div class="comment">
     <h3 class="comment-username">{{ fill user3 }}</h3>
-    <hr />
     <p class="comment-paragraph">{{ fill comm3 }}</p>
 </div>
-<div class="comment comm4">
+<div class="comment">
     <h3 class="comment-username">{{ fill user4 }}</h3>
-    <hr />
     <p class="comment-paragraph">{{ fill comm4 }}</p>
 </div>
-<div class="comment comm5">
+<div class="comment">
     <h3 class="comment-username">{{ fill user5 }}</h3>
-    <hr />
     <p class="comment-paragraph">{{ fill comm5 }}</p>
 </div>
+<p></p>
+<p></p>
+<p></p>
+<div class="pagepicker">
+    <div class="pagepicker-button"><a href="{{fill first_page}}"><<</a></div>
+    <div class="pagepicker-button"><a href="{{fill previous_page}}"><</a></div>
+    <div class="pagepicker-button"><a href="{{fill next_page}}">></a></div>
+    <div class="pagepicker-button"><a href="{{fill last_page}}">>></a></div>
+</div>
+<p></p>
+<p></p>
+<p></p>
+<hr />
+<h4>Aggiungi commento :</h4>
+<form action="aggiungicommento.php" method="post">
+    <textarea name="newcomment" rows="5"></textarea>
+    <br />
+    <input class="conferma" type="submit" value="Post"/>
+</form>
