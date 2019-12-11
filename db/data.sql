@@ -37,11 +37,11 @@ VALUES
 (4, 2, 1, 8, 'Modesta grappa per tutte le tasche, non si sbaglia mai. C\'e\' ad ogni pasto in tavola a casa nostra! Spesso sostituisce addirittura la cena'),
 (5, 2, 2, 5, 'Non ho mai assaggiato una cosa cosi\' orribile.. alcool puro. Sapore inesistente, cambiate lavoro!!'),
 (6, 3, 2, 9, 'Grandi soddisfazioni, profumo unico. L\'ho regalata a mia moglie per l\'anniversario e ha riacceso la passione'),
-(7, 3, 3, 9, 'Ho assaggaito tante grappe nella mia vita. Mio nonno le faceva in casa. Questa non l\'ho mai assaggiata, ma volevo commentare XD');
-(8, 3, 1, 6, 'Ottimo regalo di natale se non sapete cosa regalare! ');
-(9, 3, 2, 6, 'La mia ragazza ne va matta, ogni volta che la compro me la molla subito ');
-(10, 3, 1, 2, 'Non mi fidavo, infatti fa schifo');
-(11, 3, 3, 9, 'Quello del commento precedente e\' una fighetta, questa grappa non e\' per deboli. ');
+(7, 3, 3, 9, 'Ho assaggaito tante grappe nella mia vita. Mio nonno le faceva in casa. Questa non l\'ho mai assaggiata, ma volevo commentare XD'),
+(8, 3, 1, 6, 'Ottimo regalo di natale se non sapete cosa regalare! '),
+(9, 3, 2, 6, 'La mia ragazza ne va matta, ogni volta che la compro me la molla subito '),
+(10, 3, 1, 2, 'Non mi fidavo, infatti fa schifo'),
+(11, 3, 3, 9, 'Quello del commento precedente e\' una fighetta, questa grappa non e\' per deboli. '),
 (12, 2, 1, 7, '46 euro spesi benissimo,Ho comprato i bicchieri da rum che ne esaltano le caratteristiche e gia\' solo ad odorarlo é un piacere'),
 (13, 2, 3, 6, 'Accompagnato a del cioccolato fondente e ad una buona compagnia e\' perfetto'),
 (14, 2, 2, 6, 'Ottimo Rum tra quelli più commerciali, non puo\' mancare in casa.'),
@@ -53,4 +53,4 @@ VALUES
 (20, 1, 3, 7, 'Non potrei definire altrimenti questo rum se non una vera e propria ambrosia'),
 (21, 1, 2, 6, 'Rum di eccellente livello, ma per il mio gusto personale non regge il confronto con il Matusalem'),
 (22, 1, 1, 8, 'una garanzia! Ottimo da solo'),
-(23, 1, 2, 1, 'Provato per la seconda volta lo Zacapa 23 di Amazon... Non so cosa ci sia che non va, ma questo non e\' nemneno un lontano parente dello stesso liquore comprato in enoteca'),
+(23, 1, 2, 1, 'Provato per la seconda volta lo Zacapa 23 di Amazon... Non so cosa ci sia che non va, ma questo non e\' nemneno un lontano parente dello stesso liquore comprato in enoteca');
