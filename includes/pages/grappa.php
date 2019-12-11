@@ -15,7 +15,7 @@ if ( isset($_GET["page"]) )
 if (!is_numeric($page_num)) // per injection check
 	$page_num = 1;
 $comments = $db("SELECT p.text, username FROM account JOIN " .
-	"(SELECT text, fk_account, `when` FROM comment WHERE fk_product=? ORDER BY `when` LIMIT 5 OFFSET ".$page_num.
+	"(SELECT text, fk_account, `when` FROM comment WHERE fk_product=? ORDER BY `when` LIMIT 5 OFFSET ".(($page_num-1)*5).
 	") AS p ON (account.ID=p.fk_account) ORDER BY p.`when`", [ $_GET["id"] ] );
 $comm = [
 	$comments->fetch(),
@@ -24,7 +24,7 @@ $comm = [
 	$comments->fetch(),
 	$comments->fetch()
 ];
-$lastpage_index = (intval($db("select count(*) from comment where id=?",  [ $_GET["id"] ])->fetch())+4)/5;
+$lastpage_index = (intval(implode($db("select count(*) from comment where id=?",  [ $_GET["id"] ])->fetch())+4))/5;
 $indexPage = build_default_page("pages/grappa" , [
 	"name"=> $res[0],
 	"desc"=> $res[2],
