@@ -15,3 +15,11 @@
 .grappa-img {
     height: 300px;
 }
+.comment {
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 3px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
