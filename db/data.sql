@@ -53,4 +53,4 @@ VALUES
 (20, 1, 3, 7, 'Non potrei definire altrimenti questo rum se non una vera e propria ambrosia'),
 (21, 1, 2, 6, 'Rum di eccellente livello, ma per il mio gusto personale non regge il confronto con il Matusalem'),
 (22, 1, 1, 8, 'una garanzia! Ottimo da solo'),
-(23, 1, 2, 1, 'Provato per la seconda volta lo Zacapa 23 di Amazon... Non so cosa ci sia che non va, ma questo non e\' nemneno un lontano parente dello stesso liquore comprato in enoteca');
+(23, 1, 2, 1, 'Provato per la seconda volta ... Non so cosa ci sia che non va, ma questo non e\' nemneno un lontano parente dello stesso liquore comprato in enoteca');
