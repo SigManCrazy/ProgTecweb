@@ -32,11 +32,25 @@ INSERT INTO `tecweb`.`comment`
 (`ID`,`fk_product`, `fk_account`, `rating`, `text`)
 VALUES
 (1, 1, 1, 9, 'Grappa molto buona, mi e\' piaciuta tanto! Mi ha spaccato e non capivo piu\' cos\'era reale e cos\'era sbocco'),
-(2, 2, 2, 2, 'Non mi ha convinto, puzza un po\' di roba bruciata, secondo me l\'hanno affumicata male o non so'),
-(3, 3, 2, 9, 'Grandi soddisfazioni, profumo unico. L\'ho regalata a mia moglie per l\'anniversario e ha riacceso la passione'),
-(4, 1, 3, 7, 'Non e\' piu\' quella di una volta, ma resta la mia grappa preferita. Restera\' sempre nel mio cuore alcolizzato'),
-(5, 2, 1, 8, 'Modesta grappa per tutte le tasche, non si sbaglia mai. C\'e\' ad ogni pasto in tavola a casa nostra! Spesso sostituisce addirittura la cena'),
-(6, 2, 2, 5, 'Non ho mai assaggiato una cosa cosi\' orribile.. alcool puro. Sapore inesistente, cambiate lavoro!!'),
+(2, 1, 3, 7, 'Non e\' piu\' quella di una volta, ma resta la mia grappa preferita. Restera\' sempre nel mio cuore alcolizzato'),
+(3, 2, 2, 2, 'Non mi ha convinto, puzza un po\' di roba bruciata, secondo me l\'hanno affumicata male o non so'),
+(4, 2, 1, 8, 'Modesta grappa per tutte le tasche, non si sbaglia mai. C\'e\' ad ogni pasto in tavola a casa nostra! Spesso sostituisce addirittura la cena'),
+(5, 2, 2, 5, 'Non ho mai assaggiato una cosa cosi\' orribile.. alcool puro. Sapore inesistente, cambiate lavoro!!'),
+(6, 3, 2, 9, 'Grandi soddisfazioni, profumo unico. L\'ho regalata a mia moglie per l\'anniversario e ha riacceso la passione'),
 (7, 3, 3, 9, 'Ho assaggaito tante grappe nella mia vita. Mio nonno le faceva in casa. Questa non l\'ho mai assaggiata, ma volevo commentare XD');
-
-
+(8, 3, 1, 6, 'Ottimo regalo di natale se non sapete cosa regalare! ');
+(9, 3, 2, 6, 'La mia ragazza ne va matta, ogni volta che la compro me la molla subito ');
+(10, 3, 1, 2, 'Non mi fidavo, infatti fa schifo');
+(11, 3, 3, 9, 'Quello del commento precedente e\' una fighetta, questa grappa non e\' per deboli. ');
+(12, 2, 1, 7, '46 euro spesi benissimo,Ho comprato i bicchieri da rum che ne esaltano le caratteristiche e gia\' solo ad odorarlo é un piacere'),
+(13, 2, 3, 6, 'Accompagnato a del cioccolato fondente e ad una buona compagnia e\' perfetto'),
+(14, 2, 2, 6, 'Ottimo Rum tra quelli più commerciali, non puo\' mancare in casa.'),
+(15, 1, 2, 4, 'Rum acquisto per allestimento dell’angolo cubano del mio matrimonio che e\' stato ampiamente apprezzato'),
+(16, 1, 3, 9, 'Ottimo rhum per ubriacarsi con gli amici, ha un sapore gradevolissimo e non costa tanto'),
+(17, 1, 2, 7, 'Gli amanti del rum lo conoscono sicuramente. Io, personalmente, lo considero il miglior Rum commerciale'),
+(18, 1, 1, 8, '23 anni di invecchiatura non sono male, il sapore e\' uno spettacolo'),
+(19, 1, 2, 5, 'Il piu\' famoso, il piu commerciale, ma nonostante tutto, ottimo rum'),
+(20, 1, 3, 7, 'Non potrei definire altrimenti questo rum se non una vera e propria ambrosia'),
+(21, 1, 2, 6, 'Rum di eccellente livello, ma per il mio gusto personale non regge il confronto con il Matusalem'),
+(22, 1, 1, 8, 'una garanzia! Ottimo da solo'),
+(23, 1, 2, 1, 'Provato per la seconda volta lo Zacapa 23 di Amazon... Non so cosa ci sia che non va, ma questo non e\' nemneno un lontano parente dello stesso liquore comprato in enoteca'),
