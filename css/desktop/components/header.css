@@ -6,6 +6,7 @@
     display: block;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    color: white;
 }
 .navTitle {
     float: left;
