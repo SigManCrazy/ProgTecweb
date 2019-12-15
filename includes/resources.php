@@ -5,5 +5,6 @@
 	include SITE_ROOT."/includes/build_page.php";
 	include SITE_ROOT."/includes/render_foward.php";
 	include SITE_ROOT."/includes/database.php";
+	include SITE_ROOT."/includes/session.php"
 
 ?>
