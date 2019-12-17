@@ -1,5 +1,5 @@
 <?php
-// Questo abilita l'useo della sessione
+// Questo abilita l'uso della sessione
 session_start();
 
 if (!isUserLogged()) {
@@ -27,19 +27,22 @@ function setUserSession($username, $role) {
     $_SESSION["role"] = $role;
 }
 
-function hashPassword($password) { // Giusto per non salvare le password in chiaro. Se uno dovesse fare le cose fatte bene dovrebbe preoccuparsi di usare un algoritmo non facile di cui fare il reverse in GPU e che impiega un tempo costante.
+function hashPassword($password) { // Giusto per non salvare le password in chiaro.
     return md5("ju84nc73mf3e0".sha1($password));
 }
 
 function checkLogin($username, $password) {
     $db = new Database();
-	$result = $db("select account.username, account.password, account.type where account.username=? and account.password=?", [
+	$result = $db("SELECT account.`type` AS t FROM account WHERE account.username=? AND account.password=?", [
         $username,
         $password
-    ]);
+    ])->fetch();
 
-    $result = $result->fetch();
+	if ($result == null)
+		return false;
+    return $result["t"];
+}
 
-    //TODO: non ho PDO. ritornati 0 per nessun utente ed 1 o 2 a seconda del ruolo.
-    return $result[2]; // <= questo ritorna il ruolo, ma lo fa solo in caso di successo.
+function logout() {
+	session_destroy();
 }
