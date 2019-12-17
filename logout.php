@@ -1,5 +1,5 @@
 <?php
 
-include getcwd()."/includes/pages/login.php";
+include getcwd()."/includes/pages/logout.php";
 
 ?>

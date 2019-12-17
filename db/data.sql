@@ -3,9 +3,9 @@ DELETE FROM `tecweb`.`account`;
 INSERT INTO `tecweb`.`account`
 (`ID`, `email`, `username`, `password`, `type`)
 VALUES
-(1, 'archimede.distillati@gmail.com', 'admin', 'admin', 0),
-(2, 'pierino@gmail.com', 'user2', 'user2', 1),
-(3, 'utente.utentino@gmail.com', 'user3', 'user3', 1);
+(1, 'archimede.distillati@gmail.com', 'admin', '2a074faa202c282c6e477c077425bb3a', 2), -- pwd= admin
+(2, 'pierino@gmail.com', 'user2', '46a8e13797a80c8950905391461f2331', 1), -- pwd = user2
+(3, 'utente.utentino@gmail.com', 'user3', 'f2502244083c9fc7cf3799d5cd8bb633', 1); -- pwd= user3
 -- type==0 -> admin
 -- type==1 -> utente
 
