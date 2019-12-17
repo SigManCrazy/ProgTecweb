@@ -1,13 +1,13 @@
 <link href="./css/{{fill target_platform}}/login.css" rel="stylesheet" type="text/css" />
-<form action="login.php" method="POST"> <!-- alcuni web server fanno distinzione fra POST e post, non andiamo in cerca di rogne. -->
+<form action="login.php" method="POST">
     <div class="login-form">
         <div class="login-form-block">
             <label for="uname">Username</label>
-            <input type="text" placeholder="Enter Username" name="uname" id="uname" required> <!-- Dare un ID è importante: senza POST potrebbe non essere popolato. -->
+            <input type="text" placeholder="Enter Username" name="uname" id="uname" required/>
         </div>
         <div class="login-form-block">
             <label for="psw">Password</label>
-            <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+            <input type="password" placeholder="Enter Password" name="psw" id="psw" required/>
         </div>
         <div class="login-form-block">
             <button type="submit">Login</button>

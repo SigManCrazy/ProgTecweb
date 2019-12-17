@@ -1,21 +1,14 @@
-login.php
-signup.phps
-
-Cantina.php
+CANTINA: la grid
 Cantina.xhtml
 Cantina.css
+!!attenzione alcuni tipi di gridview
+!!potrebbero essere più adatti allo screen reader
 
-
-homepage.php (ex about.php)
-homepage.xhtml  (ex about.xhtml)
-homepage.css (ex about.css)
-
-login + signup (css)
-
-grappa.php
-grappa.xhtml
-grappa.css
-
+login.css
+register.css
 
 
 Mobile CSS
+
+in funzione del login si puo commentare o meno
+-- endpoint per il post dei commenti

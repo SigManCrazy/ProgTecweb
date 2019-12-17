@@ -1,16 +1,9 @@
 <?php
 
-function getLogInOutHref() {
-	if ( isUserLogged() )
-		return "logout.php";
-	return "login.php";
-}
-
-
-function getLogInOutText() {
-	if ( isUserLogged() )
-		return "Logout";
-	return "Login";
+function getHeaderContentArray() {
+	$login_status = isUserLogged();
+	return [ "loginouthref" => $login_status ? "logout.php" : "login.php",
+			 "loginouttext" => $login_status ? "Logout" : "Login" ];
 }
 
 ?>
