@@ -15,10 +15,6 @@ if ( isUserLogged() ) { // errcheck
 		!isPasswordValid($password) or
 		!isEmailValid($email) or
 		isUser($username) ) {
-		echo !isUsernameValid($username);
-		echo !isPasswordValid($password);
-		echo !isEmailValid($email);
-		echo isUser($username);
 		header("Location: register.php");
 	} else {
 		$password = hashPassword($password);
